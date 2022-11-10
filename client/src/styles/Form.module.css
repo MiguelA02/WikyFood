@@ -1,0 +1,127 @@
+html{
+    box-sizing: border-box;
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+textarea{
+    resize:none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+label{
+    margin: 10px 0 10px 0
+}
+
+input{
+    padding: 10px;
+}
+
+.outContainer{
+    background-image: url('../img/searchBar-imgMain.jpg');
+    height: 100%;
+}
+.containerMain{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #3b7f00;
+    padding: 2rem 5rem 3rem 5rem;
+    color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.Form_container_elements{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.container_small{
+    display: flex;
+    flex-direction: row;
+}
+.Form_container_elementsSmall{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.Form_input{
+    height: 40px;
+    width: 25rem;
+    border-radius: 5px;
+    border: none
+}
+.Form_input_withBtn{
+    height: 40px;
+    width: 20rem;
+    border-radius: 5px 0 0 5px;
+    border: none
+}
+.Form_input_btn{
+    border: none;
+    height: 40px;
+    width: 5rem;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.Form_input_small{
+    height: 40px;
+    width: 10rem;
+    border-radius: 5px;
+    border: none
+}
+.Form_container_TextArea{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    resize:none
+}
+.Form_input_smallBnt{
+    height: 40px;
+    width: 7rem;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+.Form_btn_Small{
+    width: 4rem;
+    height: 40px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer
+}
+.Form_container_elementsScore{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-right: 64px;
+}
+.Form_btnCreate{
+    height: 3rem;
+    width: 10rem;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.errorBox_disable{
+    display: none;
+}
+.errorBox{
+    background-color: white;
+    color: rgb(31, 195, 31);
+    width: 25rem;
+    border-radius: 10px;
+    padding: 10px;
+}
+.textError{
+    color: red;
+}
+.From_input_error{
+    height: 40px;
+    width: 7rem;
+    border-radius: 5px 0 0 5px;
+    border: 2px solid red; 
+}

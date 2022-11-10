@@ -1,0 +1,25 @@
+.Home_container{
+    margin: 20px 200px;
+}
+.Home_Filter{
+    display: flex;
+    justify-content: flex-end;
+}
+.Home_Paginator{
+    display: flex;
+    justify-content: center;
+}
+.Home_btn{
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px 0 10px;
+    background-color: #3b7f00;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.Home_btn:hover{
+    background-color: rgb(0, 163, 0);
+    transform: scale(1.09);
+}

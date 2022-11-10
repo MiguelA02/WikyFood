@@ -1,0 +1,52 @@
+html{
+    box-sizing: border-box;
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+/* Generales */
+img{
+    max-width: 100%
+}
+
+.Card_container{
+    display: inline-flex;
+    background-color: rgb(243, 243, 243);
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+}
+.img{
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.title{
+    width: 200px;
+  margin: 10px 0 1em 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-decoration: none;
+}
+.Card_Link{
+    text-decoration: none;
+    color: black;
+}
+
+
+.Card_container:hover{
+    transform: scale(1.1);
+}
+

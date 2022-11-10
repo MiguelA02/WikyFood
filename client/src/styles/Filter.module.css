@@ -1,0 +1,12 @@
+.Filter_Select{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color:#3b7f00;
+    color:white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.Filter_Select:hover{
+    background-color: rgb(0, 163, 0)
+}
