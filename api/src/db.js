@@ -6,10 +6,14 @@ const {
   DB_USER, DB_PASSWORD, DB_HOST,
 } = process.env;
 
-const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/food`, {
-  logging: false, // set to console.log to see the raw SQL queries
-  native: false, // lets Sequelize know we can use pg-native for ~30% more speed
-});
+const sequelize = new Sequelize(`postgres://food_nest_user:KVTap4WMsydnTa5Nb4IxS5e3WNdHhW5U@dpg-cg5229vdvk4n2c22tn2g-a.oregon-postgres.render.com/food_nest`, {
+  dialect: 'postgres',
+  dialectOptions: {
+    ssl: {
+      require: true,
+      rejectUnauthorized: false // Puede que necesites cambiar esto a "true" dependiendo de la configuración de tu servidor
+    }
+  }});
 const basename = path.basename(__filename);
 
 const modelDefiners = [];
